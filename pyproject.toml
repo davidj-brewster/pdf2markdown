@@ -5,5 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "markdown2>=2.4.10",
+    "pdf2image>=1.16.3",
+    "pdfplumber",
+    "pillow>=10.1.0",
     "pypdf2>=3.0.1",
+    "pytesseract>=0.3.9",
+    "typing-extensions>=4.8.0",
 ]
